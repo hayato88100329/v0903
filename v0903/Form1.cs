@@ -12,8 +12,8 @@ namespace v0903
 {
     public partial class Form1 : Form
     {
-        int vx = rand.Next(-20, 20);
-        int vy = rand.Next(-20, 20);
+        int vx = rand.Next(-10,10);
+        int vy = rand.Next(-10,10);
         int point = -100;
         static Random rand = new Random();
 
